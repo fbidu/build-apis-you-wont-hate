@@ -1,8 +1,8 @@
 # Build APIs You Wont Hate
 
-This repository contains sample code that is supplied with the book.
+This is my personal repository that I use to follow with the examples on the book ["Build APIs You Won't Hate" on LeanPub](http://apisyouwonthate.com). I forked it from the [original repo by Phil Sturgeon](https://github.com/philsturgeon/build-apis-you-wont-hate)
 
-["Build APIs You Won't Hate" on LeanPub](http://apisyouwonthate.com)
+## Rest of the original readme
 
 Some chapters are just theory, and some chapters will have sections that rely on sample code. 
 I have tried to avoid making this a book of code, and it's intended to be language 
