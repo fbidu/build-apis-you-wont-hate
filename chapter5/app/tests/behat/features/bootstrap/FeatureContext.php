@@ -2,7 +2,7 @@
 
 use Behat\Behat\Context\ClosuredContextInterface;
 use Behat\Behat\Context\TranslatedContextInterface;
-use Behat\Behat\Context\BehatContext;
+use Behat\Behat\Context\Context;
 use Behat\Exception\PendingException;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
@@ -23,7 +23,7 @@ require_once __DIR__.'/../../../../../vendor/phpunit/phpunit/PHPUnit/Framework/A
 /**
  * Features context.
  */
-class FeatureContext extends BehatContext
+class FeatureContext implements Context
 {
     /**
      * The Guzzle HTTP Client.

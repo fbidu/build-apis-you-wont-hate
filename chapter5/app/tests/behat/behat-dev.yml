@@ -5,3 +5,4 @@ default:
         default:
             paths:
                 - %paths.base%/features
+            contexts: [ LaravelFeatureContext ]
